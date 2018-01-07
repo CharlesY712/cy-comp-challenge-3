@@ -69,6 +69,7 @@ body {
   background-color: rgb(53,64,81);
   display: grid;
   grid-template: 12% 18% 18% 52% / 100%;
+  color: rgb(141,153,173);
 }
 
 .block2__section-person {
@@ -82,8 +83,57 @@ body {
   margin: 15% 25% auto 25%;
 }
 
+.block2__section-main {
+  grid-area: 2 / 1 / 3 / 2;
+}
 
+.block2__section-admin {
+  grid-area: 3 / 1 / 4 / 2;
+}
 
+.block2__section-categories {
+  grid-area: 4 / 1 / 5 /2;
+}
+
+.block2__section-categories--admin-button {
+  color: rgb(225,225,3);
+  background-color: rgb(53,64,81);
+  border: none;
+}
+
+.block2__section-categories--admin-text {
+  color: rgb(141,153,173);
+}
+
+.block2__section-categories--design-button {
+  color: rgb(35,163,254);
+  background-color: rgb(53,64,81);
+  border: none;
+}
+
+.block2__section-categories--design-text {
+  color: rgb(141,153,173);
+}
+
+.block2__section-categories--executive-button {
+  color: rgb(236,27,89);
+  background-color: rgb(53,64,81);
+  border: none;
+}
+
+.block2__section-categories--executive-text {
+  color: rgb(141,153,173);
+}
+
+.block2__section-categories--human-resources-button {
+  color: rgb(0,161,126);
+  background-color: rgb(53,64,81);
+  border: none;
+}
+
+.block2__section-categories--human-resources-text {
+  color: rgb(141,153,173);
+}
 
 /*Title*/
 .block3 {
