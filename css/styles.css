@@ -29,58 +29,45 @@ body {
 }
 
 .block1 button:focus {
-  background-color: rgb(47,56,73);
-}
-
-.block1 button::after {
-  background-color: black;
+  background-color: rgb(20,153,249);
+  color: white;
 }
 
 .block1 button:hover {
   background-color: rgb(20,153,249);
+  color: white;
 }
 
 .block1__input {
   grid-area: 1 / 2 / 2 / 6;
+  font-size: 3vw;
 }
 
 .block1__button-menu {
   grid-area: 1 / 5 / 2 / 6;
-  background-color: white;
-}
-
-[src="img/menu.svg"] {
-  width: 50%;
-  color: white;
-  fill: currentColor;
+  font-size: 3vw;
+  color: black;
 }
 
 .block1__button-nav {
   grid-area: 1 / 1 / 2 / 2;
-  background-color: white;
-}
-
-[src="img/dot-matrix.svg"] {
-  width: 50%;
+  font-size: 3vw;
+  color: black;
 }
 
 .block1__button-person {
   grid-area: 1 / 3 / 2 / 4;
-  background-color: white;
-}
-
-[src="img/person-plus.svg"] {
-  width: 50%;
+  font-size: 3vw;
+  color: black;
 }
 
 .block1__button-video {
   grid-area: 1 / 4 / 2 / 5;
-  background-color: white;
+  font-size: 3vw;
+  color: black;
 }
 
-[src="img/screen-player.svg"] {
-  width: 50%;
-}
+
 
 /*Aside Menu*/
 .block2 {
