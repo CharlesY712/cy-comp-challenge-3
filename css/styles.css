@@ -29,6 +29,7 @@ body {
 /*Aside Menu*/
 .block2 {
   grid-area: 1 / 1 / 10 / 2; 
+  background-color: rgb(53,64,81)
 }
 
 /*Title*/
@@ -44,39 +45,47 @@ body {
 /*Percent Circles*/
 .block5 {
   grid-area: 4 / 2 / 5 / 3;
+  background-color: rgb(237,242,246);
 }
 
 /*Bar Chart*/
 .block6 {
   grid-area: 4 / 3 / 5 / 5; 
+  background-color: rgb(237,242,246);
 }
 
 /*Horizontal Line*/
 .block7 {
   grid-area: 5 / 2 / 6 / 5;
+  background-color: rgb(237,242,246);
 }
 
 /*Job Table*/
 .block8 {
   grid-area: 6 / 2 / 10 / 4;
+  background-color: rgb(237,242,246);
 }
 
 /*Social Media*/
 .block9 {
   grid-area: 6 / 4 / 7 / 5;
+  background-color: rgb(237,242,246);
 }
 
 /*Link to Job*/
 .block10 {
   grid-area: 7 / 4 / 8 / 5;
+  background-color: rgb(237,242,246);
 }
 
 /*Button Widget*/
 .block11 {
   grid-area: 8 / 4 / 9 / 5;
+  background-color: rgb(237,242,246);
 }
 
 /*Resume by Email*/
 .block12 {
   grid-area: 9 / 4 / 10 / 5;
+  background-color: rgb(237,242,246);
 }
