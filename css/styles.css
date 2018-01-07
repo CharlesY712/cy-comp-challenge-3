@@ -1,0 +1,82 @@
+.block1,
+.block2,
+.block3,
+.block4,
+.block5,
+.block6,
+.block7,
+.block8,
+.block9,
+.block10,
+.block11,
+.block12 {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+body {
+  width: 100vw;
+  height: 115vw;
+  display: grid;
+  grid-template: 5.9% 8.6% 3.9% 22.3% 5.4% 13.5% 13.5% 13.5% 13.5% / 15% 47% 11% 27%;
+}
+
+/*Search Bar*/
+.block1 {
+  grid-area: 1 / 2 / 2 / 5;
+}
+
+/*Aside Menu*/
+.block2 {
+  grid-area: 1 / 1 / 10 / 2; 
+}
+
+/*Title*/
+.block3 {
+  grid-area: 2 / 2 / 3 / 5;
+}
+
+/*Title Nav Buttons*/
+.block4 {
+  grid-area: 3 / 2 / 4 / 5;
+}
+
+/*Percent Circles*/
+.block5 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+/*Bar Chart*/
+.block6 {
+  grid-area: 4 / 3 / 5 / 5; 
+}
+
+/*Horizontal Line*/
+.block7 {
+  grid-area: 5 / 2 / 6 / 5;
+}
+
+/*Job Table*/
+.block8 {
+  grid-area: 6 / 2 / 10 / 4;
+}
+
+/*Social Media*/
+.block9 {
+  grid-area: 6 / 4 / 7 / 5;
+}
+
+/*Link to Job*/
+.block10 {
+  grid-area: 7 / 4 / 8 / 5;
+}
+
+/*Button Widget*/
+.block11 {
+  grid-area: 8 / 4 / 9 / 5;
+}
+
+/*Resume by Email*/
+.block12 {
+  grid-area: 9 / 4 / 10 / 5;
+}
