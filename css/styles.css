@@ -277,11 +277,6 @@ body {
 }
 
 
-
-
-
-
-
 /*Title Nav Buttons*/
 .block4 {
   grid-area: 3 / 2 / 4 / 5;
@@ -307,18 +302,50 @@ body {
   border-bottom: .25vw solid rgb(20,153,249);
 }
 
-
 .block4__ul li button:focus {
   border-bottom: .25vw solid rgb(20,153,249);
 }
-
-
 
 /*Percent Circles*/
 .block5 {
   grid-area: 4 / 2 / 5 / 3;
   background-color: rgb(237,242,246);
+  font-size: 10vw;
 }
+
+.circular-chart {
+  display: inline-block;
+  margin: 10px auto;
+  max-width: 13vw;
+  max-height: 13vw;
+  transform: rotate(180deg);
+}
+
+.circle {
+  stroke: #4CC790;
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Bar Chart*/
 .block6 {
