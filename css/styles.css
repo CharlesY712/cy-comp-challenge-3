@@ -1,3 +1,7 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .block1,
 .block2,
 .block3,
@@ -194,7 +198,7 @@ body {
   display: inline-block;
   position: absolute;
   top: 1vw;
-  left: 0;
+  left: 3vw;
   font-size: 1.4vw;
 }
 
@@ -236,8 +240,62 @@ body {
 .block3__section-buttons {
   display: inline-block;
   position: absolute;
-  right: 0;
+  right: 2vw;
+  top: 2.5vw;
+  font-size: 1.4vw;
 }
+
+.block3__section-buttons--open {
+  padding: 1.4vw;
+  border-radius: 2.8vw;
+}
+
+.block3__section-buttons--open:hover {
+  background-color: rgb(20,153,249);
+  color: white;
+}
+
+.block3__section-buttons--open-dot {
+  color: rgb(141,204,96);
+  margin-right: .5vw;
+}
+
+.block3__section-buttons--bookmark {
+  padding: 1.4vw;
+  border-radius: 50%;
+  width: 4.5vw;
+  margin-left: 1vw;
+}
+
+.block3__section-buttons--bookmark:hover {
+  background-color: rgb(20,153,249);
+  color: white;
+}
+
+.block3__section-buttons--edit {
+  padding: 1.4vw;
+  border-radius: 50%;
+  width: 4.5vw;
+  margin-left: 1vw;
+}
+
+.block3__section-buttons--edit:hover {
+  background-color: rgb(20,153,249);
+  color: white;
+}
+
+.block3__section-buttons--trash {
+  padding: 1.4vw;
+  border-radius: 50%;
+  width: 4.5vw;
+  margin-left: 1vw;
+}
+
+.block3__section-buttons--trash:hover {
+  background-color: rgb(20,153,249);
+  color: white;
+}
+
 
 
 
