@@ -64,8 +64,6 @@ body {
   grid-area: 1 / 4 / 2 / 5;
 }
 
-
-
 /*Aside Menu*/
 .block2 {
   grid-area: 1 / 1 / 10 / 2; 
@@ -74,10 +72,6 @@ body {
   grid-template: 12% 18% 18% 52% / 100%;
   color: rgb(141,153,173);
   font-size: 1.2vw;
-}
-
-.block2 section h3 {
-  margin-left: 2vw;
 }
 
 .block2__section-person {
@@ -92,6 +86,18 @@ body {
   height: 50%;
   border-radius: 50%;
   margin: 15% 25% auto 25%;
+}
+
+.block2 summary::-webkit-details-marker {
+    display: none;
+}
+
+.block2 summary {
+  margin: 1.2vw 0 1.2vw 2vw;
+}
+
+.block2 summary:hover {
+  color: white;
 }
 
 .block2__section-main {
@@ -174,20 +180,6 @@ body {
   color: rgb(141,153,173);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Title*/
 .block3 {
   grid-area: 2 / 2 / 3 / 5;
@@ -214,6 +206,7 @@ body {
   display: inline;
   margin-left: .5em;
   font-size: 1.4vw;
+  color: grey;
 }
 
 .block3__section-title-and-location--location-link {
@@ -226,15 +219,6 @@ body {
 .block3__section-title-and-location--location-link:visited {
   color: rgb(20,153,249);
   text-decoration: none;
-}
-
-
-
-
-
-
-.block3__section-title-and-location--title {
-
 }
 
 .block3__section-buttons {
@@ -306,6 +290,33 @@ body {
 .block4 {
   grid-area: 3 / 2 / 4 / 5;
 }
+
+.block4__ul {
+  margin-top: 2.5vw;
+  margin-bottom: 0vw;
+}
+
+.block4__ul li {
+  display: inline-block;
+  margin-right: 3vw;
+  font-size: 1.25vw;
+}
+
+.block4__ul li button {
+  border: none;
+  color: grey;
+}
+
+.block4__ul li button:hover {
+  border-bottom: .25vw solid rgb(20,153,249);
+}
+
+
+.block4__ul li button:focus {
+  border-bottom: .25vw solid rgb(20,153,249);
+}
+
+
 
 /*Percent Circles*/
 .block5 {
