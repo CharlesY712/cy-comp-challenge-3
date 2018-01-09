@@ -21,10 +21,6 @@ body {
   grid-template: 5.9% 8.6% 3.9% 22.3% 5.4% 13.5% 13.5% 13.5% 13.5% / 15% 47% 11% 27%;
 }
 
-section h3 {
-  margin-left: 2vw
-}
-
 /*Search Bar*/
 .block1 {
   grid-area: 1 / 2 / 2 / 5;
@@ -62,7 +58,6 @@ section h3 {
 
 .block1__button-video {
   grid-area: 1 / 4 / 2 / 5;
-
 }
 
 
@@ -75,6 +70,10 @@ section h3 {
   grid-template: 12% 18% 18% 52% / 100%;
   color: rgb(141,153,173);
   font-size: 1.2vw;
+}
+
+.block2 section h3 {
+  margin-left: 2vw;
 }
 
 .block2__section-person {
@@ -126,8 +125,6 @@ section h3 {
 .block2__section-admin button:hover {
   color: white;
 }
-
-
 
 .block2__section-categories {
   grid-area: 4 / 1 / 5 /2;
@@ -190,7 +187,62 @@ section h3 {
 /*Title*/
 .block3 {
   grid-area: 2 / 2 / 3 / 5;
+  position: relative;
 }
+
+.block3__section-title-and-location {
+  display: inline-block;
+  position: absolute;
+  top: 1vw;
+  left: 0;
+  font-size: 1.4vw;
+}
+
+.block3__section-title-and-location--title {
+  font-size: 2vw;
+}
+
+.block3__section-title-and-location--location-icon {
+  display: inline;
+}
+
+.block3__section-title-and-location--location-name{
+  display: inline;
+  margin-left: .5em;
+  font-size: 1.4vw;
+}
+
+.block3__section-title-and-location--location-link {
+  display: inline;
+  font-size: 1.4vw;
+  color: rgb(20,153,249);
+  text-decoration: none;
+}
+
+.block3__section-title-and-location--location-link:visited {
+  color: rgb(20,153,249);
+  text-decoration: none;
+}
+
+
+
+
+
+
+.block3__section-title-and-location--title {
+
+}
+
+.block3__section-buttons {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+
+
+
+
 
 /*Title Nav Buttons*/
 .block4 {
