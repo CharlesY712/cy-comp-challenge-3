@@ -283,7 +283,7 @@ body {
 }
 
 .block4__ul {
-  margin-top: 2.5vw;
+  margin-top: 1.5vw;
   margin-bottom: 0vw;
 }
 
@@ -294,6 +294,7 @@ body {
 }
 
 .block4__ul li button {
+  padding-bottom: 1.2vw;
   border: none;
   color: grey;
 }
