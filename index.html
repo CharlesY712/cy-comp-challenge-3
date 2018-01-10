@@ -10,95 +10,111 @@
 </head>
 <body>
   <nav class="block1">
-    <button class="block1__button-nav">
+    <button class="block1__button-nav"
+            label="expand side menu">
       <span class="fas fa-bars"></span>
     </button>
-    <div class="block1__input">
+    <form class="block1__input">
       <span class="fas fa-search"></span><input type="text" name="search-bar" placeholder="Search for a job, task or resume">
-    </div>
-    <button class="block1__button-person">
+    </form>
+    <button class="block1__button-person"
+            label="add person">
       <span class="fas fa-user-plus"></span>
     </button>
-    <button class="block1__button-video">
+    <button class="block1__button-video"
+            label="video message this person">
       <span class="fas fa-video"></span>
     </button>
-    <button class="block1__button-menu">
+    <button class="block1__button-menu"
+            label="open menu">
       <span class="fas fa-th"></span>
     </button>
   </nav>
-
   <nav class="block2">
     <section class="block2__section-person">
-      <img src="https://new1.fjcdn.com/pictures/The+greast+stock+photo+guy+comp+_d534e3_5270001.jpg">
+      <img src="https://new1.fjcdn.com/pictures/The+greast+stock+photo+guy+comp+_d534e3_5270001.jpg" alt="stock photo of man">
       <p>Newton Barley<span class="fas fa-angle-down"></span></p>
     </section>
     <details class="block2__section-main">
-      <summary>Main</summary>
-      <button class="block2__section-main--home-button">
+      <summary label="expand main menu">Main</summary>
+      <button class="block2__section-main--home-button"
+              label="jump to main home menu">
         <span class="fas fa-home"></span>
         <span class="block2__section-main--home-text">Home</span>
       </button>
-      <button class="block2__section-main--jobs-button">
+      <button class="block2__section-main--jobs-button"
+              label="jump to main jobs menu">
         <span class="fas fa-briefcase"></span>
         <span class="block2__section-main--jobs-text">Jobs</span>
       </button>
-      <button class="block2__section-main--resume-button">
+      <button class="block2__section-main--resume-button"
+              label="jump to main resume menu">
         <span class="far fa-file-alt"></span>
         <span class="block2__section-main--resume-text">Resume</span>
       </button>
-      <button class="block2__section-main--tasks-button">
+      <button class="block2__section-main--tasks-button"
+              label="jump to main tasks menu">
         <span class="far fa-clipboard"></span>
         <span class="block2__section-main--tasks-text">Tasks</span>
       </button>
-      <button class="block2__section-main--calandar-button">
+      <button class="block2__section-main--calandar-button"
+              label="jump to main calandar menu">
         <span class="far fa-calendar-alt"></span>
         <span class="block2__section-main--calandar-text">Calandar</span>
       </button>
     </details>
     <details class="block2__section-admin">
-      <summary>Admin</summary>
-      <button class="block2__section-admin--users-button">
+      <summary label="expand admin menu">Admin</summary>
+      <button class="block2__section-admin--users-button"
+              label="jump to admin users menu">
         <span class="fas fa-users"></span>
         <span class="block2__section-admin--users-text">Users</span>
       </button>
-      <button class="block2__section-admin--location-button">
+      <button class="block2__section-admin--location-button"
+              label="jump to admin location menu">
         <span class="fas fa-map-marker-alt"></span>
         <span class="block2__section-admin--location-text">Location</span>
       </button>
-      <button class="block2__section-admin--workflows-button">
+      <button class="block2__section-admin--workflows-button"
+              label="jump to admin workflows menu">
         <span class="fas fa-code-branch"></span>
         <span class="block2__section-admin--workflows-text">Workflows</span>
       </button>
-      <button class="block2__section-admin--job-boards-button">
+      <button class="block2__section-admin--job-boards-button"
+              label="jump to admin job boards menu">
         <span class="fas fa-coffee"></span>
         <span class="block2__section-admin--job-boards-text">Job Boards</span>
       </button>
-      <button class="block2__section-admin--social-button">
+      <button class="block2__section-admin--social-button"
+              label="jump to admin social menu">
         <span class="fab fa-hubspot"></span>
         <span class="block2__section-admin--social-text">Social</span>
       </button>
     </details>
     <details class="block2__section-categories">
-      <summary>Categories</summary>
-      <button class="block2__section-categories--admin-button">
+      <summary label="expand categories menu">Categories</summary>
+      <button class="block2__section-categories--admin-button"
+              label="expand categories admin menu">
         <span class="fas fa-check-square"></span>
         <span class="block2__section-categories--admin-text">Administration</span>
       </button>
-      <button class="block2__section-categories--design-button">
+      <button class="block2__section-categories--design-button"
+              label="expand categories design menu">
         <span class="fas fa-square"></span>
         <span class="block2__section-categories--design-text">Design</span>
       </button>
-      <button class="block2__section-categories--executive-button">
+      <button class="block2__section-categories--executive-button"
+              label="expand categories executive menu">
         <span class="fas fa-square">
           <span class="block2__section-categories--executive-text">Executive</span>
         </button>
-        <button class="block2__section-categories--human-resources-button">
+        <button class="block2__section-categories--human-resources-button"
+                label="expand categories human resources menu">
           <span class="fas fa-square">
             <span class="block2__section-categories--human-resources-text">Human Resources</span>
           </button>
         </details>
       </nav>
-
       <section class="block3">
         <section class="block3__section-title-and-location">
           <h1 class="block3__section-title-and-location--title">Customer Service Representative</h1>
@@ -106,28 +122,34 @@
             <span class="fas fa-map-marker-alt"></span>
           </div>
           <h3 class="block3__section-title-and-location--location-name">San Francisco, CA - </h3>
-          <a href=""  class="block3__section-title-and-location--location-link">Preview this post</a>
+          <a href="" title="link to preview post" class="block3__section-title-and-location--location-link">Preview this post</a>
         </section>
         <section class="block3__section-buttons">
-          <button class="block3__section-buttons--open"><span class="fas fa-circle block3__section-buttons--open-dot"></span>Open</button>
-          <button class="block3__section-buttons--bookmark"><span class="fas fa-bookmark"></span></button>
-          <button class="block3__section-buttons--edit"><span class="fas fa-pencil-alt"></span></button>
-          <button class="block3__section-buttons--trash"><span class="far fa-trash-alt"></span></button>
+          <button class="block3__section-buttons--open"
+                  label="open job">
+            <span class="fas fa-circle block3__section-buttons--open-dot"></span>Open</button>
+          <button class="block3__section-buttons--bookmark"
+                  label="bookmark this job">
+            <span class="fas fa-bookmark"></span></button>
+          <button class="block3__section-buttons--edit"
+                  label="edit this job">
+            <span class="fas fa-pencil-alt"></span></button>
+          <button class="block3__section-buttons--trash"
+                  label="trash this job">
+            <span class="far fa-trash-alt"></span></button>
         </section>
       </section>
-
       <nav class="block4">
         <ul  class="block4__ul">
-          <li><button>Summary</button></li>
-          <li><button>Applicants</button></li>
-          <li><button>Job Board</button></li>
-          <li><button>Interviews</button></li>
-          <li><button>Activity</button></li>
-          <li><button>Broadcast</button></li>
-          <li><button>Notifications</button></li>
+          <li><button label="expand summary information">Summary</button></li>
+          <li><button label="expand applicants information">Applicants</button></li>
+          <li><button label="expand job board information">Job Board</button></li>
+          <li><button label="expand interviews information">Interviews</button></li>
+          <li><button label="expand activity information">Activity</button></li>
+          <li><button label="expand broadcast information">Broadcast</button></li>
+          <li><button label="expand notifications information">Notifications</button></li>
         </ul>
       </nav>
-
       <section class="block5">
         <div class="block5__chart-wrapper">
           <div class="block5__single-chart">
@@ -208,20 +230,15 @@
         </div>
         <p class="block6__p-applications">APPLICATIONS/DAY</p>
       </section>
-
       <section class="block7">
         <hr>
         <section>
           <div class="fas fa-angle-up"></div>
         </section>
         <hr>
-
       </section>
-
       <section class="block8">
-
         <div class="block8__table">
-
           <div style="order:1;" class="block8__table--col1-header">JOB DESCRIPTION</div>
           <div style="order:2;" class="block8__table--col1-cell">POSITION TITLE</div>
           <div style="order:3;" class="block8__table--col1-cell">LOCATION</div>
@@ -231,50 +248,47 @@
           <div style="order:7;" class="block8__table--col1-cell">DESCRIPTION</div>
           <div style="order:8;" class="block8__table--col1-cell">HIRING LEAD</div>
           <div style="order:9;" class="block8__table--col1-cell">APPROVED SALARY</div>
-
-          <div style="order:1;" class="block8__table--col2-header">
-            <span class="fas fa-pencil-alt"></span> EDIT
-          </div>
+          <div style="order:1;" class="block8__table--col2-header"><span class="fas fa-pencil-alt"></span> EDIT</div>
           <div style="order:2;" class="block8__table--col2-cell">Customer Service Representative</div>
           <div style="order:3;" class="block8__table--col2-cell">San Francisco, CA</div>
           <div style="order:4;" class="block8__table--col2-cell">Full-time</div>
           <div style="order:5;" class="block8__table--col2-cell">Mid-level</div>
           <div style="order:6;" class="block8__table--col2-cell">Open</div>
           <div style="order:7;" class="block8__table--col2-cell">The Customer Service Represntative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product <em>shizzle</em>; helping the bidness reduce customer service wait time while doing a backhand spring and eating a ham sandwhich.</div>
-          <div style="order:8;" class="block8__table--col2-cell"><img src="img/headshot.jpg"> Tom Tizzy</div>
+          <div style="order:8;" class="block8__table--col2-cell"><img src="img/headshot.jpg" alt="stock photo headshot"> Tom Tizzy</div>
           <div style="order:9;" class="block8__table--col2-cell"><strong>$58,000</strong></div>
-
         </div>
-
-
       </section>
-
-
       <section class="block9">
-        <button class="block9__button facebook"><span class="fab fa-facebook-f"></span>Post to Facebook</button>
-        <button class="block9__button twitter"><span class="fab fa-twitter"></span>Tweet this Job</button>
-        <button class="block9__button linkedin"><span class="fab fa-linkedin"></span>Post to LinkedIn</button>
+        <button class="block9__button facebook" 
+                label="post this job to facebook"><span class="fab fa-facebook-f"></span>Post to Facebook</button>
+        <button class="block9__button twitter"
+                label="post this job to twitter"><span class="fab fa-twitter"></span>Tweet this Job</button>
+        <button class="block9__button linkedin"
+                label="post this job to linked in"><span class="fab fa-linkedin"></span>Post to LinkedIn</button>
       </section>
-
       <section class="block10">
         <h4 class="block10__h4"><span class="fas fa-globe"></span>Link to this Job</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipi cing eli. Integer mollis neque eget vestitpend.</p>
-        <input type="text" name="" placeholder="http://loremipsum.dol/sit.amet...">
-        <button>Copy</button>
+        <form>
+          <input type="text" name="job-link" placeholder="http://loremipsum.dol/sit.amet...">
+          <button label="copy this text for a link to this job">Copy</button>
+        </form>
       </section>
-
       <section class="block11">
         <h4 class="block11__h4"><span class="fas fa-code"></span>Use the Button Widget</h4>
         <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-        <input type="text" name="" placeholder="<script type=text/javascript s...">
-        <button>Copy</button>
+        <form>
+          <input type="text" name="embed-link" placeholder="<script type=text/javascript s...">
+          <button label="copy this text to embed a link to this job">Copy</button>
+        </form>
       </section>
-
       <section class="block12">
         <h4 class="block12__h4"><span class="fab fa-telegram-plane"></span>Upload Resume by Email</h4>
         <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
-        <input type="text" name="" placeholder="tomtizzy@gmail.com">
+        <form>
+          <input type="text" name="email-resume" placeholder="tomtizzy@gmail.com">
+        </form>
       </section>
-
     </body>
     </html>

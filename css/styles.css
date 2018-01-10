@@ -107,9 +107,6 @@ body {
   margin-left: .5vw;
 }
 
-
-
-
 .block2 summary::-webkit-details-marker {
     display: none;
 }
@@ -611,6 +608,7 @@ body {
   grid-area: 6 / 4 / 7 / 5;
   background-color: rgb(237,242,246);
   padding: 1vw;
+  font-size: 1.25vw;
 }
 
 .block9__button {
@@ -720,5 +718,16 @@ body {
   width: 17vw;
 }
 
+@media screen (max-width: 414px) {
 
+
+
+
+
+
+
+
+
+
+}
 
