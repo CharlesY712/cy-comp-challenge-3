@@ -2,22 +2,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.block1,
-.block2,
-.block3,
-.block4,
-.block5,
-.block6,
-.block7,
-.block8,
-.block9,
-.block10,
-.block11,
-.block12 {
-  box-sizing: border-box;
-  border: 1px solid lightgrey;
-}
-
 body {
   width: 100vw;
   height: 115vw;
@@ -719,15 +703,6 @@ body {
 }
 
 @media screen (max-width: 414px) {
-
-
-
-
-
-
-
-
-
 
 }
 
