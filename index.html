@@ -125,33 +125,64 @@
   </nav>
 
   <section class="block5">
-    <svg viewbox="0 0 36 36" class="circular-chart">
-      <path class="circle"
-        stroke-dasharray="56, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-    </svg>
-    <svg viewbox="0 0 36 36" class="circular-chart">
-      <path class="circle"
-        stroke-dasharray="27, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-    </svg>
-    <svg viewbox="0 0 36 36" class="circular-chart">
-      <path class="circle"
-        stroke-dasharray="17, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-    </svg>
-    <p>Totals</p>
+    <div class="block5__chart-wrapper">
+      <div class="block5__single-chart">
+        <svg viewbox="0 0 36 36" class="block5__svg--circular-chart green">
+          <path class="block5__svg--circular-chart--circle-bg"
+            d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path class="circle"
+            stroke-dasharray="80, 100"
+            transform="rotate(-180, 18, 18)"
+            d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <text x="18" y="18" class="block5__svg--circular-chart--stat">3,154</text>
+          <text x="18" y="23" class="block5__svg--circular-chart--stat-text">APPLICANTS</text>
+        </svg>
+      </div>
+      <div class="block5__single-chart">
+        <svg viewbox="0 0 36 36" class="block5__svg--circular-chart blue">
+          <path class="block5__svg--circular-chart--circle-bg"
+            d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path class="circle"
+            stroke-dasharray="40, 100"
+            transform="rotate(-180, 18, 18)"
+            d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <text x="18" y="18" class="block5__svg--circular-chart--stat">1,546</text>
+          <text x="18" y="23" class="block5__svg--circular-chart--stat-text">INTERVIEWS</text>
+        </svg>
+      </div>
+      <div class="block5__single-chart">
+        <svg viewbox="0 0 36 36" class="block5__svg--circular-chart purple">
+          <path class="block5__svg--circular-chart--circle-bg"
+            d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <path class="circle"
+            stroke-dasharray="20, 100"
+            transform="rotate(-180, 18, 18)"
+            d="M18 2.0845
+              a 15.9155 15.9155 0 0 1 0 31.831
+              a 15.9155 15.9155 0 0 1 0 -31.831"
+          />
+          <text x="18" y="18" class="block5__svg--circular-chart--stat">912</text>
+          <text x="18" y="23" class="block5__svg--circular-chart--stat-text">FORWARDS</text>
+        </svg>
+      </div>
+    </div>
+    <p class="block5__p-totals">TOTALS - Out of 5,238 views</p>
   </section>
-  
   <section class="block6">
     Bar graph
     <p>Applicans/Day</p>
