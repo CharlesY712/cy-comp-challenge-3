@@ -490,7 +490,32 @@ body {
 .block7 {
   grid-area: 5 / 2 / 6 / 5;
   background-color: rgb(237,242,246);
+  padding: 1.5vw 2vw;
 }
+
+.block7 hr {
+  display: inline-block;
+  width: 38vw;
+  padding-bottom: .2vw;
+  margin-bottom: 1vw;
+  background-color: lightgrey;
+  border: none;
+}
+
+.block7 section {
+  display: inline-block;
+  width: 3vw;
+  height: 3vw;
+  font-size: 3vw;
+  background-color: white;
+  border: .2vw solid lightgrey;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20%;
+  color: lightgrey;
+}
+
+
 
 /*Job Table*/
 .block8 {
