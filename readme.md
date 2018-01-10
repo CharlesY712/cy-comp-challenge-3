@@ -6,7 +6,7 @@ In each challenge we are asked to recreate a static comp with the objective to b
 We were not provided with any assets, nor native files. We have not been provided breakpoint specific comps. We may NOT take liberties with the layout, but our creative license includes: Copy, Images, Icons, and Color palette, but ONLY if we select a complementary palette.
 
 This is my static-comp:
-![cy-comp](img/cy-comp-challenge-3-screenshot.png)
+![cy-comp](img/cy-comp-challenge-3.png)
 
 
 This is the provided static-comp:
