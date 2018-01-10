@@ -9,12 +9,13 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-
   <nav class="block1">
     <button class="block1__button-nav">
       <span class="fas fa-bars"></span>
     </button>
-    <input class="block1__input" type="text" name="search-bar">
+    <div class="block1__input">
+      <span class="fas fa-search"></span><input type="text" name="search-bar" placeholder="Search for a job, task or resume">
+    </div>
     <button class="block1__button-person">
       <span class="fas fa-user-plus"></span>
     </button>
@@ -27,9 +28,9 @@
   </nav>
 
   <nav class="block2">
-    <section class="block2__section-person" >
+    <section class="block2__section-person">
       <img src="https://new1.fjcdn.com/pictures/The+greast+stock+photo+guy+comp+_d534e3_5270001.jpg">
-      <p>Newton Barley</p>
+      <p>Newton Barley<span class="fas fa-angle-down"></span></p>
     </section>
     <details class="block2__section-main">
       <summary>Main</summary>
@@ -89,161 +90,191 @@
       </button>
       <button class="block2__section-categories--executive-button">
         <span class="fas fa-square">
-        <span class="block2__section-categories--executive-text">Executive</span>
-      </button>
-      <button class="block2__section-categories--human-resources-button">
-        <span class="fas fa-square">
-        <span class="block2__section-categories--human-resources-text">Human Resources</span>
-      </button>
-    </details>
-  </nav>
+          <span class="block2__section-categories--executive-text">Executive</span>
+        </button>
+        <button class="block2__section-categories--human-resources-button">
+          <span class="fas fa-square">
+            <span class="block2__section-categories--human-resources-text">Human Resources</span>
+          </button>
+        </details>
+      </nav>
 
-  <section class="block3">
-    <section class="block3__section-title-and-location">
-      <h1 class="block3__section-title-and-location--title">Customer Service Representative</h1>
-      <span class="fas fa-map-marker-alt" class="block3__section-title-and-location--location-icon"></span><h3 class="block3__section-title-and-location--location-name">San Francisco, CA - </h3>
-      <a href=""  class="block3__section-title-and-location--location-link">Preview this post</a>
-    </section>
-    <section class="block3__section-buttons">
-      <button class="block3__section-buttons--open"><span class="fas fa-circle block3__section-buttons--open-dot"></span>Open</button>
-      <button class="block3__section-buttons--bookmark"><span class="fas fa-bookmark"></span></button>
-      <button class="block3__section-buttons--edit"><span class="fas fa-pencil-alt"></span></button>
-      <button class="block3__section-buttons--trash"><span class="far fa-trash-alt"></span></button>
-    </section>
-  </section>
+      <section class="block3">
+        <section class="block3__section-title-and-location">
+          <h1 class="block3__section-title-and-location--title">Customer Service Representative</h1>
+          <div class="block3__section-title-and-location--icon">
+            <span class="fas fa-map-marker-alt"></span>
+          </div>
+          <h3 class="block3__section-title-and-location--location-name">San Francisco, CA - </h3>
+          <a href=""  class="block3__section-title-and-location--location-link">Preview this post</a>
+        </section>
+        <section class="block3__section-buttons">
+          <button class="block3__section-buttons--open"><span class="fas fa-circle block3__section-buttons--open-dot"></span>Open</button>
+          <button class="block3__section-buttons--bookmark"><span class="fas fa-bookmark"></span></button>
+          <button class="block3__section-buttons--edit"><span class="fas fa-pencil-alt"></span></button>
+          <button class="block3__section-buttons--trash"><span class="far fa-trash-alt"></span></button>
+        </section>
+      </section>
 
-  <nav class="block4">
-    <ul  class="block4__ul">
-      <li><button>Summary</button></li>
-      <li><button>Applicants</button></li>
-      <li><button>Job Board</button></li>
-      <li><button>Interviews</button></li>
-      <li><button>Activity</button></li>
-      <li><button>Broadcast</button></li>
-      <li><button>Notifications</button></li>
-    </ul>
-  </nav>
+      <nav class="block4">
+        <ul  class="block4__ul">
+          <li><button>Summary</button></li>
+          <li><button>Applicants</button></li>
+          <li><button>Job Board</button></li>
+          <li><button>Interviews</button></li>
+          <li><button>Activity</button></li>
+          <li><button>Broadcast</button></li>
+          <li><button>Notifications</button></li>
+        </ul>
+      </nav>
 
-  <section class="block5">
-    <div class="block5__chart-wrapper">
-      <div class="block5__single-chart">
-        <svg viewbox="0 0 36 36" class="block5__svg--circular-chart green">
-          <path class="block5__svg--circular-chart--circle-bg"
-            d="M18 2.0845
+      <section class="block5">
+        <div class="block5__chart-wrapper">
+          <div class="block5__single-chart">
+            <svg viewbox="0 0 36 36" class="block5__svg--circular-chart green">
+              <path class="block5__svg--circular-chart--circle-bg"
+              d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831"
-          />
-          <path class="circle"
-            stroke-dasharray="80, 100"
-            transform="rotate(-180, 18, 18)"
-            d="M18 2.0845
+              />
+              <path class="circle"
+              stroke-dasharray="80, 100"
+              transform="rotate(-180, 18, 18)"
+              d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831"
-          />
-          <text x="18" y="18" class="block5__svg--circular-chart--stat">3,154</text>
-          <text x="18" y="23" class="block5__svg--circular-chart--stat-text">APPLICANTS</text>
-        </svg>
-      </div>
-      <div class="block5__single-chart">
-        <svg viewbox="0 0 36 36" class="block5__svg--circular-chart blue">
-          <path class="block5__svg--circular-chart--circle-bg"
-            d="M18 2.0845
+              />
+              <text x="18" y="18" class="block5__svg--circular-chart--stat">3,154</text>
+              <text x="18" y="23" class="block5__svg--circular-chart--stat-text">APPLICANTS</text>
+            </svg>
+          </div>
+          <div class="block5__single-chart">
+            <svg viewbox="0 0 36 36" class="block5__svg--circular-chart blue">
+              <path class="block5__svg--circular-chart--circle-bg"
+              d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831"
-          />
-          <path class="circle"
-            stroke-dasharray="40, 100"
-            transform="rotate(-180, 18, 18)"
-            d="M18 2.0845
+              />
+              <path class="circle"
+              stroke-dasharray="40, 100"
+              transform="rotate(-180, 18, 18)"
+              d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831"
-          />
-          <text x="18" y="18" class="block5__svg--circular-chart--stat">1,546</text>
-          <text x="18" y="23" class="block5__svg--circular-chart--stat-text">INTERVIEWS</text>
-        </svg>
-      </div>
-      <div class="block5__single-chart">
-        <svg viewbox="0 0 36 36" class="block5__svg--circular-chart purple">
-          <path class="block5__svg--circular-chart--circle-bg"
-            d="M18 2.0845
+              />
+              <text x="18" y="18" class="block5__svg--circular-chart--stat">1,546</text>
+              <text x="18" y="23" class="block5__svg--circular-chart--stat-text">INTERVIEWS</text>
+            </svg>
+          </div>
+          <div class="block5__single-chart">
+            <svg viewbox="0 0 36 36" class="block5__svg--circular-chart purple">
+              <path class="block5__svg--circular-chart--circle-bg"
+              d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831"
-          />
-          <path class="circle"
-            stroke-dasharray="20, 100"
-            transform="rotate(-180, 18, 18)"
-            d="M18 2.0845
+              />
+              <path class="circle"
+              stroke-dasharray="20, 100"
+              transform="rotate(-180, 18, 18)"
+              d="M18 2.0845
               a 15.9155 15.9155 0 0 1 0 31.831
               a 15.9155 15.9155 0 0 1 0 -31.831"
-          />
-          <text x="18" y="18" class="block5__svg--circular-chart--stat">912</text>
-          <text x="18" y="23" class="block5__svg--circular-chart--stat-text">FORWARDS</text>
-        </svg>
-      </div>
-    </div>
-    <p class="block5__p-totals">TOTALS - Out of 5,238 views</p>
-  </section>
-  <section class="block6">
-    <div class="block6__chart-wrapper">
-    <div class="block6__chart">
-        <div class="block6__chart--bar bar1"></div>
-        <div class="block6__chart--bar bar2"></div>
-        <div class="block6__chart--bar bar3"></div>
-        <div class="block6__chart--bar bar4"></div>
-        <div class="block6__chart--bar bar5"></div>
-        <div class="block6__chart--bar bar6"></div>
-        <div class="block6__chart--bar bar7"></div>
-        <div class="block6__chart--bar bar8"></div>
-        <div class="block6__chart--bar bar9"></div>
-        <div class="block6__chart--bar bar10"></div>
-        <div class="block6__chart--bar bar11"></div>
-        <div class="block6__chart--bar bar12"></div>
-        <div class="block6__chart--bar bar13"></div>
-        <div class="block6__chart--bar bar14"></div>
-      </div>
-    </div>
-    <p class="block6__p-applications">APPLICATIONS/DAY</p>
-  </section>
+              />
+              <text x="18" y="18" class="block5__svg--circular-chart--stat">912</text>
+              <text x="18" y="23" class="block5__svg--circular-chart--stat-text">FORWARDS</text>
+            </svg>
+          </div>
+        </div>
+        <p class="block5__p-totals">TOTALS - Out of 5,238 views</p>
+      </section>
+      <section class="block6">
+        <div class="block6__chart-wrapper">
+          <div class="block6__chart">
+            <div class="block6__chart--bar bar1"></div>
+            <div class="block6__chart--bar bar2"></div>
+            <div class="block6__chart--bar bar3"></div>
+            <div class="block6__chart--bar bar4"></div>
+            <div class="block6__chart--bar bar5"></div>
+            <div class="block6__chart--bar bar6"></div>
+            <div class="block6__chart--bar bar7"></div>
+            <div class="block6__chart--bar bar8"></div>
+            <div class="block6__chart--bar bar9"></div>
+            <div class="block6__chart--bar bar10"></div>
+            <div class="block6__chart--bar bar11"></div>
+            <div class="block6__chart--bar bar12"></div>
+            <div class="block6__chart--bar bar13"></div>
+            <div class="block6__chart--bar bar14"></div>
+          </div>
+        </div>
+        <p class="block6__p-applications">APPLICATIONS/DAY</p>
+      </section>
 
-  <section class="block7">
-    <hr>
-    <section>
-      <div class="fas fa-angle-up"></div>
-    </section>
-    <hr>
-    
-  </section>
+      <section class="block7">
+        <hr>
+        <section>
+          <div class="fas fa-angle-up"></div>
+        </section>
+        <hr>
 
-  <section class="block8">
-    Table
-  </section>
+      </section>
+
+      <section class="block8">
+
+        <div class="block8__table">
+
+          <div style="order:1;" class="block8__table--col1-header">JOB DESCRIPTION</div>
+          <div style="order:2;" class="block8__table--col1-cell">POSITION TITLE</div>
+          <div style="order:3;" class="block8__table--col1-cell">LOCATION</div>
+          <div style="order:4;" class="block8__table--col1-cell">EMPLOYMENT TYPE</div>
+          <div style="order:5;" class="block8__table--col1-cell">EXPERIENCE</div>
+          <div style="order:6;" class="block8__table--col1-cell">STATUS</div>
+          <div style="order:7;" class="block8__table--col1-cell">DESCRIPTION</div>
+          <div style="order:8;" class="block8__table--col1-cell">HIRING LEAD</div>
+          <div style="order:9;" class="block8__table--col1-cell">APPROVED SALARY</div>
+
+          <div style="order:1;" class="block8__table--col2-header">
+            <span class="fas fa-pencil-alt"></span> EDIT
+          </div>
+          <div style="order:2;" class="block8__table--col2-cell">Customer Service Representative</div>
+          <div style="order:3;" class="block8__table--col2-cell">San Francisco, CA</div>
+          <div style="order:4;" class="block8__table--col2-cell">Full-time</div>
+          <div style="order:5;" class="block8__table--col2-cell">Mid-level</div>
+          <div style="order:6;" class="block8__table--col2-cell">Open</div>
+          <div style="order:7;" class="block8__table--col2-cell">The Customer Service Represntative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product <em>shizzle</em>; helping the bidness reduce customer service wait time while doing a backhand spring and eating a ham sandwhich.</div>
+          <div style="order:8;" class="block8__table--col2-cell"><img src="img/headshot.jpg"> Tom Tizzy</div>
+          <div style="order:9;" class="block8__table--col2-cell"><strong>$58,000</strong></div>
+
+        </div>
 
 
-  <section class="block9">
-    <button>Post to facebook</button>
-    <button>Tweet this Job</button>
-    <button>Post to LinkedIn</button>
-  </section>
+      </section>
 
-  <section class="block10">
-    <h4>Link to this Job</h4>
-    <p></p>
-    <input type="text" name="">
-    <button>Copy</button>
-  </section>
 
-  <section class="block11">
-    <h4>Unse the Botton Widget</h4>
-    <p></p>
-    <input type="text" name="">
-    <button>Copy</button>
-  </section>
+      <section class="block9">
+        <button>Post to facebook</button>
+        <button>Tweet this Job</button>
+        <button>Post to LinkedIn</button>
+      </section>
 
-  <section class="block12">
-    <h4>Uplead Rusume by Email</h4>
-    <p></p>
-    <input type="text" name="">
-  </section>
+      <section class="block10">
+        <h4>Link to this Job</h4>
+        <p></p>
+        <input type="text" name="">
+        <button>Copy</button>
+      </section>
 
-</body>
-</html>
+      <section class="block11">
+        <h4>Unse the Botton Widget</h4>
+        <p></p>
+        <input type="text" name="">
+        <button>Copy</button>
+      </section>
+
+      <section class="block12">
+        <h4>Uplead Rusume by Email</h4>
+        <p></p>
+        <input type="text" name="">
+      </section>
+
+    </body>
+    </html>
