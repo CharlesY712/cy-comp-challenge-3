@@ -627,6 +627,7 @@ body {
   padding: .5vw 3.5vw;
   font-size: 1vw;
   color: grey;
+  border-bottom: .2vw solid lightgrey;
 }
 
 .block10__h4 {
@@ -657,6 +658,7 @@ body {
   padding: .5vw 3.5vw;
   font-size: 1vw;
   color: grey;
+  border-bottom: .2vw solid lightgrey;
 }
 
 .block11__h4 {
