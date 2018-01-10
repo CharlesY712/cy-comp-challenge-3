@@ -30,7 +30,7 @@ body {
   grid-area: 1 / 2 / 2 / 5;
   display: grid;
   grid-template: 100% / 7.5% 70% 7.5% 7.5% 7.5%;
-  font-size: 3vw;
+  font-size: 2vw;
   color: black;
 }
 
@@ -45,7 +45,22 @@ body {
 }
 
 .block1__input {
-  grid-area: 1 / 2 / 2 / 6;
+  grid-area: 1 / 2 / 2 / 3;
+  position: relative;
+  color: grey;
+  display: inline-block;
+}
+
+.block1__input input { 
+  text-indent: 5vw;
+  height: 94%; 
+  width: 99.5%;
+}
+
+.block1__input .fa-search { 
+  position: absolute;
+  top: 2.5vw;
+  left: 2vw;
 }
 
 .block1__button-menu {
@@ -76,7 +91,7 @@ body {
 .block2__section-person {
   height: 14.5vw;
   border-bottom: 1px solid black;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   text-align: center
 }
 
@@ -87,12 +102,21 @@ body {
   margin: 15% 25% auto 25%;
 }
 
+.block2__section-person p span {
+  font-size: 1.5vw;
+  margin-left: .5vw;
+}
+
+
+
+
 .block2 summary::-webkit-details-marker {
     display: none;
 }
 
 .block2 summary {
   margin: 1.2vw 0 1.2vw 2vw;
+  font-size: 1.5vw;
 }
 
 .block2 summary:hover {
@@ -101,6 +125,7 @@ body {
 
 .block2__section-main {
   border-bottom: 1px solid black;
+  padding: 1vw 0;
 }
 
 .block2__section-main button {
@@ -118,6 +143,7 @@ body {
 
 .block2__section-admin {
   border-bottom: 1px solid black;
+  padding: 1vw 0;
 }
 
 .block2__section-admin button {
@@ -134,6 +160,7 @@ body {
 }
 
 .block2__section-categories {
+  padding: 1vw 0;
 }
 
 .block2__section-categories button {
@@ -194,13 +221,14 @@ body {
   font-size: 2vw;
 }
 
-.block3__section-title-and-location--location-icon {
+.block3__section-title-and-location--icon {
   display: inline;
+  color: grey;
 }
 
 .block3__section-title-and-location--location-name{
   display: inline;
-  margin-left: .5em;
+  margin-left: .25em;
   font-size: 1.4vw;
   color: grey;
 }
@@ -480,12 +508,6 @@ body {
   width: 12vw;
 }
 
-
-
-
-
-
-
 /*Horizontal Line*/
 .block7 {
   grid-area: 5 / 2 / 6 / 5;
@@ -515,13 +537,81 @@ body {
   color: lightgrey;
 }
 
-
+.block7 section:hover {
+  background-color: rgb(20,153,249);
+  color: white;
+}
 
 /*Job Table*/
 .block8 {
   grid-area: 6 / 2 / 10 / 4;
   background-color: rgb(237,242,246);
+  padding: 2vw;
+  font-size: 1.25vw;
 }
+
+.block8__table {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.block8__table--col1-header {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 30%;
+  padding: 2.1vw 1vw;
+  overflow: hidden;
+  background: rgb(111, 126, 147);
+  color: white;
+}
+
+.block8__table--col1-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 30%;
+  padding: 2.1vw 1vw;
+  overflow: hidden;
+  background: white;
+  color: rgb(111, 126, 147);
+  border-bottom: .1vw solid lightgrey;
+}
+
+.block8__table--col2-header {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 60%;
+  padding: 2.1vw 1vw;
+  overflow: hidden;
+  background: rgb(111, 126, 147);
+  color: white;
+}
+
+.block8__table--col2-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 60%;
+  padding: 2.1vw 1vw;
+  overflow: hidden;
+  background: white;
+  color: rgb(111, 126, 147);
+  border-bottom: .1vw solid lightgrey;
+}
+
+[src="img/headshot.jpg"] {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  margin: -1vw .5vw -1vw 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
 
 /*Social Media*/
 .block9 {
