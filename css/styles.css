@@ -638,23 +638,87 @@ body {
   background-color: rgb(0, 131, 184);
 }
 
-
-
-
 /*Link to Job*/
 .block10 {
   grid-area: 7 / 4 / 8 / 5;
   background-color: rgb(237,242,246);
+  padding: .5vw 3.5vw;
+  font-size: 1vw;
+  color: grey;
 }
+
+.block10__h4 {
+  font-size: 1.25vw;
+  color: black;
+}
+
+.block10__h4 span {
+  margin-right: 1vw;
+}
+
+.block10 input {
+  padding: .75vw;
+  width: 13vw;
+}
+
+.block10 button {
+  padding: .75vw;
+  color: white;
+  background-color: rgb(70, 185, 193);
+}
+
 
 /*Button Widget*/
 .block11 {
   grid-area: 8 / 4 / 9 / 5;
   background-color: rgb(237,242,246);
+  padding: .5vw 3.5vw;
+  font-size: 1vw;
+  color: grey;
+}
+
+.block11__h4 {
+  font-size: 1.25vw;
+  color: black;
+}
+
+.block11__h4 span {
+  margin-right: 1vw;
+}
+
+.block11 input {
+  padding: .75vw;
+  width: 13vw;
+}
+
+.block11 button {
+  padding: .75vw;
+  color: white;
+  background-color: rgb(70, 185, 193);
 }
 
 /*Resume by Email*/
 .block12 {
   grid-area: 9 / 4 / 10 / 5;
   background-color: rgb(237,242,246);
+  padding: .5vw 3.5vw;
+  font-size: 1vw;
+  color: grey;
 }
+
+.block12__h4 {
+  font-size: 1.25vw;
+  color: black;
+}
+
+.block12__h4 span {
+  margin-right: 1vw;
+}
+
+.block12 input {
+  padding: .75vw;
+  width: 17vw;
+}
+
+
+
