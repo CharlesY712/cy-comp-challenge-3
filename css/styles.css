@@ -385,23 +385,23 @@ body {
   background-color: rgb(237,242,246);
 }
 
-.chart-wrapper {
+.block6__chart-wrapper {
   display: flex;
   justify-content: center;
   margin-top: 4vw;
 }
 
-.chart {
+.block6__chart {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(100, 1fr);
   grid-column-gap: 1vw;
-  height: 13vh;
+  height: 12vw;
   width: 30vw;
   padding: 5px 10px;
 }
 
-.bar {
+.block6__chart--bar {
   margin: 0;
   padding: 0;
   border-radius: 2px 2px 0 0;
@@ -409,7 +409,7 @@ body {
   background-color: rgb(67, 185,189);
 }
   
-.bar:hover {
+.block6__chart--bar:hover {
   background-color: rgb(51, 167, 175);
 }
 
@@ -467,11 +467,6 @@ body {
 
 .bar14 {
   grid-row-start: 40;
-}
-
-.days {
-  margin-left: 4.1vw;
-  letter-spacing: .55vw;
 }
 
 .block6__p-applications {
