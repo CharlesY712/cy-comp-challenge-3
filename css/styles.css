@@ -378,22 +378,117 @@ body {
   width: 18vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /*Bar Chart*/
 .block6 {
   grid-area: 4 / 3 / 5 / 5; 
   background-color: rgb(237,242,246);
 }
+
+.chart-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw;
+}
+
+.chart {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+  grid-column-gap: 1vw;
+  height: 13vh;
+  width: 30vw;
+  padding: 5px 10px;
+}
+
+.bar {
+  margin: 0;
+  padding: 0;
+  border-radius: 2px 2px 0 0;
+  grid-row-end: 102;
+  background-color: rgb(67, 185,189);
+}
+  
+.bar:hover {
+  background-color: rgb(51, 167, 175);
+}
+
+.bar1 {
+  grid-row-start: 1;
+}
+
+.bar2 {
+  grid-row-start: 30;
+}
+
+.bar3 {
+  grid-row-start: 20;
+}
+
+.bar4 {
+  grid-row-start: 50;
+}
+
+.bar5 {
+  grid-row-start: 60;
+}
+
+.bar6 {
+  grid-row-start: 20;
+}
+
+.bar7 {
+  grid-row-start: 30;
+}
+
+.bar8 {
+  grid-row-start: 10;
+}
+
+.bar9 {
+  grid-row-start: 80;
+}
+
+.bar10 {
+  grid-row-start: 40;
+}
+
+.bar11 {
+  grid-row-start: 20;
+}
+
+.bar12 {
+  grid-row-start: 60;
+}
+
+.bar13 {
+  grid-row-start: 50;
+}
+
+.bar14 {
+  grid-row-start: 40;
+}
+
+.days {
+  margin-left: 4.1vw;
+  letter-spacing: .55vw;
+}
+
+.block6__p-applications {
+  font-size: 1.25vw;
+  text-align: center;
+  background-color: white;
+  border-radius: 2vw;
+  display: block;
+  margin: 2vw auto;
+  padding: 1vw;
+  width: 12vw;
+}
+
+
+
+
+
+
 
 /*Horizontal Line*/
 .block7 {
