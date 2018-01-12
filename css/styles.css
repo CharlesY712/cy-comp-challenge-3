@@ -704,6 +704,244 @@ body {
   width: 17vw;
 }
 
+@media screen and (max-width: 768px) {
+  
+  body {
+    width: 100vw;
+    height: auto;
+    grid-template: repeat(9, auto) / 20% 40% 40%;
+  }
+
+  /*Search Bar*/
+  .block1 {
+    grid-area: 1 / 2 / 2 / 4;
+    display: grid;
+    grid-template: 100% / 9% 64% 9% 9% 9%;
+    font-size: 3vw;
+  }
+
+  .block1__input {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .block1__input input { 
+    text-indent: 6vw;
+    height: 94%; 
+    width: 99.5%;
+  }
+
+  .block1__input .fa-search { 
+    position: absolute;
+    top: .5vw;
+    left: 2vw;
+  }
+
+  .block1__button-menu,
+  .block1__button-nav,
+  .block1__button-person,
+  .block1__button-video {
+    border: 2px solid lightgrey;
+  }
+
+  /*Aside Menu*/
+  .block2 {
+    grid-area: 1 / 1 / 10 / 2; 
+    font-size: 1.5vw;
+  }
+
+  .block2__section-person {
+    height: 14.5vw;
+    border-bottom: 1px solid black;
+    font-size: 1.75vw;
+    text-align: center
+  }
+
+  [src="https://new1.fjcdn.com/pictures/The+greast+stock+photo+guy+comp+_d534e3_5270001.jpg"] {
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    margin: 5% 25% auto 25%;
+  }
+
+  .block2__section-person p span {
+    font-size: 1.75vw;
+    margin-left: .5vw;
+  }
+
+  .block2 summary {
+    margin: 1.2vw 0 1.2vw 2vw;
+    font-size: 1.75vw;
+  }
+
+  /*Title*/
+  .block3 {
+    grid-area: 2 / 2 / 3 / 4;
+    height: 8vw;
+  }
+
+  .block3__section-title-and-location {
+    font-size: 2vw;
+  }
+
+  .block3__section-title-and-location--title {
+    font-size: 2.5vw;
+    margin-bottom: 0;
+  }
+
+  .block3__section-title-and-location--location-name{
+    font-size: 2vw;
+  }
+
+  .block3__section-title-and-location--location-link {
+    font-size: 2vw;
+  }
+
+
+  /*Title Nav Buttons*/
+  .block4 {
+    grid-area: 3 / 2 / 4 / 4;
+  }
+
+  .block4__ul {
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .block4__ul li {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1.75vw;
+  }
+
+  .block4__ul li button {
+    padding-bottom: 1.2vw;
+  }
+
+  /*Percent Circles*/
+  .block5 {
+    grid-area: 4 / 2 / 5 / 4;
+  }
+
+  .block5__chart-wrapper {
+    margin-top: 1vw;
+  }
+
+  .block5__svg--circular-chart--stat {
+    font-size: 1vw;
+  }
+
+  .block5__svg--circular-chart--stat-text {
+    font-size: .5vw;
+  }
+
+  .block5__p-totals {
+    font-size: 2vw;
+    width: 30vw;
+  }
+
+  /*Bar Chart*/
+  .block6 {
+    grid-area: 5 / 2 / 6 / 4; 
+  }
+
+  .block6__chart-wrapper {
+    margin-top: 1vw;
+  }
+
+  .block6__chart {
+    height: 20vw;
+    width: 70vw;
+  }
+
+  .block6__p-applications {
+    font-size: 2vw;
+    margin: 2vw auto;
+    padding: 1vw;
+    width: 20vw;
+  }
+
+  /*Horizontal Line*/
+  .block7 {
+    grid-area: 6 / 2 / 7 / 4;
+    padding: 1.5vw 2vw;
+  }
+
+  .block7 hr {
+    width: 35.5vw;
+  }
+
+  /*Job Table*/
+  .block8 {
+    grid-area: 7 / 2 / 8 / 4;
+    font-size: 2.5vw;
+  }
+
+  [src="img/headshot.jpg"] {
+    margin: -.5vw .5vw -.5vw 0;
+  }
+
+  /*Social Media*/
+  .block9 {
+    grid-area: 8 / 2 / 9 / 3;
+    padding: 1vw;
+    font-size: 3vw;
+  }
+
+  .block9__button {
+    width: 35vw;
+    height: 6vw;
+  }
+
+  /*Link to Job*/
+  .block10 {
+    grid-area: 8 / 3 / 9 / 4;
+    font-size: 2vw;
+  }
+
+  .block10__h4 {
+    font-size: 2.25vw;
+    margin-top: 1.5vw;
+  }
+
+  .block10 input {
+    padding: .75vw;
+    width: 22vw;
+  }
+
+  /*Button Widget*/
+  .block11 {
+    grid-area: 9 / 2 / 10 / 3;
+    font-size: 2vw;
+  }
+
+  .block11__h4 {
+    font-size: 2.25vw;
+    margin-top: 3vw;
+  }
+
+  .block11 input {
+    width: 22vw;
+  }
+
+  /*Resume by Email*/
+  .block12 {
+    grid-area: 9 / 3 / 10 / 4;
+    font-size: 2vw;
+    padding-bottom: 2vw;
+  }
+
+  .block12__h4 {
+    font-size: 2.25vw;
+
+  }
+
+  .block12 input {
+    width: 29vw;
+  }
+}
+
 @media screen and (max-width: 414px) {
   
   body {
@@ -745,21 +983,25 @@ body {
   .block1__button-menu {
     grid-area: 2 / 1 / 3 / 2;
     border: 2px solid lightgrey;
+    margin-top: 2vw;
   }
 
   .block1__button-nav {
     grid-area: 2 / 2 / 3 / 3;
     border: 2px solid lightgrey;
+    margin-top: 2vw;
   }
 
   .block1__button-person {
     grid-area: 2 / 3 / 3 / 4;
     border: 2px solid lightgrey;
+    margin-top: 2vw;
   }
 
   .block1__button-video {
     grid-area: 2 / 4 / 3 / 5;
     border: 2px solid lightgrey;
+    margin-top: 2vw;
   }
   
   /*Aside Menu*/
@@ -964,10 +1206,12 @@ body {
   .block10 input {
     padding: .75vw;
     width: 75vw;
+    margin-right: 0;
   }
 
   .block10 button {
     padding: .75vw;
+    margin-left: -1vw;
   }
 
 
@@ -990,10 +1234,12 @@ body {
   .block11 input {
     padding: .75vw;
     width: 75vw;
+    margin-right: 0;
   }
 
   .block11 button {
     padding: .75vw;
+    margin-left: -1vw;
   }
 
   /*Resume by Email*/
@@ -1016,5 +1262,5 @@ body {
     padding: .75vw;
     width: 87vw;
   }
-
+}
 
