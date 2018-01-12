@@ -704,7 +704,239 @@ body {
   width: 17vw;
 }
 
-@media screen (max-width: 414px) {
+@media screen and (max-width: 414px) {
+  
+  body {
+    width: 100vw;
+    display: grid;
+    grid-template: repeat(12, auto) / 100%;
+  }
+
+  .block1 {
+    grid-area: 2 / 1 / 3 / 2;
+    font-size: 3vw;
+  }
+
+  .block1 {
+    grid-area: 2 / 1 / 3 / 2;
+    display: grid;
+    grid-template: repeat(2, 50%) / repeat(4, 25%);
+    font-size: 6vw;
+    color: black;
+  }
+
+  .block1__input {
+    grid-area: 1 / 1 / 2 / 5;
+    position: relative;
+    color: grey;
+    display: inline-block;
+  }
+
+  .block1__input input { 
+    text-indent: 10vw;
+  }
+
+  .block1__input .fa-search { 
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+  }
+
+  .block1__button-menu {
+    grid-area: 2 / 1 / 3 / 2;
+    border: 2px solid lightgrey;
+  }
+
+  .block1__button-nav {
+    grid-area: 2 / 2 / 3 / 3;
+    border: 2px solid lightgrey;
+  }
+
+  .block1__button-person {
+    grid-area: 2 / 3 / 3 / 4;
+    border: 2px solid lightgrey;
+  }
+
+  .block1__button-video {
+    grid-area: 2 / 4 / 3 / 5;
+    border: 2px solid lightgrey;
+  }
+  
+  /*Aside Menu*/
+  .block2 {
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    grid-template: 75% 25% / 1fr 1fr 1fr;
+    font-size: 2.5vw;
+  }
+
+  .block2__section-person {
+    border-bottom: 1px solid black;
+    font-size: 10vw;
+    text-align: center;
+    grid-area: 1/1/2/4;
+  }
+
+  [src="https://new1.fjcdn.com/pictures/The+greast+stock+photo+guy+comp+_d534e3_5270001.jpg"] {
+    display: none;
+  }
+
+  .block2__section-person p {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 9vw;
+  }
+
+  .block2__section-person p span {
+    display: none;
+  }
+
+  .block2 summary {
+    font-size: 5vw;
+  }
+
+  .block2__section-main {
+    grid-area: 2/1/3/2;
+  }
+
+  .block2__section-admin {
+    grid-area: 2/2/3/3;
+  }
+
+  .block2__section-categories {
+    grid-area: 2/3/3/4;
+  }
+
+  .block3 {
+    grid-area: 3 / 1 / 4 / 2;
+    height: 10vw;
+  }
+
+  .block3__section-title-and-location {
+    font-size: 2.5vw;
+  }
+
+  .block3__section-title-and-location--title {
+    font-size: 3vw;
+  }
+
+  .block3__section-title-and-location--location-name{
+    font-size: 2.5vw;
+  }
+
+  .block3__section-title-and-location--location-link {
+    font-size: 2.5vw;
+  }
+
+  .block3__section-buttons {
+    display: inline-block;
+    position: absolute;
+    right: 2vw;
+    top: 2.5vw;
+    font-size: 3vw;
+  }
+
+  .block3__section-buttons--bookmark {
+    border-radius: 10%;
+    width: 8vw;
+  }
+
+  .block3__section-buttons--edit {
+    border-radius: 10%;
+    width: 8vw;
+  }
+
+  .block3__section-buttons--trash {
+    border-radius: 10%;
+    width: 8vw;
+  }
+
+  .block4 {
+    grid-area: 4 / 1 / 5 / 2;
+    background-color: ;
+  }
+
+  .block4__ul {
+    margin-top: 1.5vw;
+    margin-bottom: 0vw;
+  }
+
+  .block4__ul li {
+    display: inline-block;
+    margin-right: 0vw;
+    font-size: 4vw;
+  }
+
+  .block4__ul li button {
+    padding-bottom: 1.2vw;
+    border: none;
+    color: grey;
+  }
+
+  .block5 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+
+  .block5__chart-wrapper {
+    margin-top: 0vw;
+  }
+
+  .block5__svg--circular-chart--stat {
+    font-size: 2vw;
+    text-anchor: middle;
+  }
+
+  .block5__svg--circular-chart--stat-text {
+    font-size: 1vw;
+  }
+
+  .block5__p-totals {
+    font-size: 2vw;
+    text-align: center;
+    background-color: white;
+    border-radius: 2vw;
+    display: block;
+    margin: 2vw auto;
+    padding: 1vw;
+    width: 35vw;
+  }
+
+
+
+
+
+  
+  .block5 {
+    
+  }
+  
+  .block6 {
+    grid-area: 6 / 1 / 7 / 2;
+  }
+  
+  .block7 {
+    grid-area: 7 / 1 / 8 / 2;
+  }
+  
+  .block8 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
+  
+  .block9 {
+    grid-area: 9 / 1 / 10 / 2;
+  }
+  
+  .block10 {
+    grid-area: 10 / 1 / 11 / 2;
+  }
+  
+  .block11 {
+    grid-area: 11 / 1 / 12 / 2;
+  }
+  
+  .block12 {
+    grid-area: 12 / 1 / 13 / 2;
+  }
 
 }
 
