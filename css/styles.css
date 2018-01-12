@@ -853,7 +853,6 @@ body {
 
   .block4 {
     grid-area: 4 / 1 / 5 / 2;
-    background-color: ;
   }
 
   .block4__ul {
@@ -891,52 +890,131 @@ body {
   }
 
   .block5__p-totals {
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     background-color: white;
     border-radius: 2vw;
     display: block;
     margin: 2vw auto;
     padding: 1vw;
-    width: 35vw;
+    width: 50vw;
   }
 
-
-
-
-
-  
-  .block5 {
-    
-  }
-  
   .block6 {
     grid-area: 6 / 1 / 7 / 2;
   }
-  
+
+  .block6__chart-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 0vw;
+  }
+
+  .block6__chart {
+    height: 23vw;
+    width: 100vw;
+  }
+
+  .block6__p-applications {
+    font-size: 3vw;
+    width: 30vw;
+  }
+
   .block7 {
     grid-area: 7 / 1 / 8 / 2;
   }
-  
-  .block8 {
-    grid-area: 8 / 1 / 9 / 2;
-  }
-  
-  .block9 {
-    grid-area: 9 / 1 / 10 / 2;
-  }
-  
-  .block10 {
-    grid-area: 10 / 1 / 11 / 2;
-  }
-  
-  .block11 {
-    grid-area: 11 / 1 / 12 / 2;
-  }
-  
-  .block12 {
-    grid-area: 12 / 1 / 13 / 2;
+
+  .block7 hr {
+    width: 45vw;
   }
 
-}
+  .block8 {
+    grid-area: 8 / 1 / 9 / 2;
+    padding: 2vw;
+    font-size: 3vw;
+  }
+
+  .block9 {
+    grid-area: 9 / 1 / 10 / 2;
+    padding: 0vw;
+    font-size: 3.5vw;
+  }
+
+  .block9__button {
+    display: block;
+    width: 50vw;
+    height: 8vw;
+  }
+
+  .block10 {
+    grid-area: 10 / 1 / 11 / 2;
+    padding: .5vw 3.5vw;
+    font-size: 3.5vw;
+    padding-bottom: 5vw;
+  }
+
+  .block10__h4 {
+    font-size: 4vw;
+  }
+
+  .block10__h4 span {
+    margin-right: 1vw;
+  }
+
+  .block10 input {
+    padding: .75vw;
+    width: 75vw;
+  }
+
+  .block10 button {
+    padding: .75vw;
+  }
+
+
+  /*Button Widget*/
+  .block11 {
+    grid-area: 11 / 1 / 12 / 2;
+    padding: .5vw 3.5vw;
+    font-size: 3.5vw;
+    padding-bottom: 5vw;
+  }
+
+  .block11__h4 {
+    font-size: 4vw;
+  }
+
+  .block11__h4 span {
+    margin-right: 1vw;
+  }
+
+  .block11 input {
+    padding: .75vw;
+    width: 75vw;
+  }
+
+  .block11 button {
+    padding: .75vw;
+  }
+
+  /*Resume by Email*/
+  .block12 {
+    grid-area: 12 / 1 / 13 / 2;
+    padding: .5vw 3.5vw;
+    font-size: 3.5vw;
+    padding-bottom: 5vw;
+  }
+
+  .block12__h4 {
+    font-size: 4vw;
+  }
+
+  .block12__h4 span {
+    margin-right: 1vw;
+  }
+
+  .block12 input {
+    padding: .75vw;
+    width: 87vw;
+  }
+
 
